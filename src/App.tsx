@@ -44,7 +44,7 @@ function App() {
 
 
     const sendToAPI = async () => {
-        const formData = new FormData;
+        const formData = new FormData();
         formData.append('firstName', firstName);
         formData.append('lastName', lastName);
         formData.append('email', email);
